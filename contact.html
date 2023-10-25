@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AgricTech">
+    <meta name="keywords" content="HomeGrown Harvest">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Register page</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+          <div class="container">
+            <h1 class="logo"><a href="index.html">HomeGrown Harvest</a></h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="current" href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+        </nav>
+     
+    </header>
+    <section id="contact-form" class="py-3">
+        <div class="container">
+            <h1 class="l-heading"> <p><b>Kindly fill out the form below</b></p></h1>
+            
+            <form action="process.php">
+                <div class="form-group">
+                    <label for="Name"><b>Name</b></label>
+                    <input type="text" name="name" id="name">
+                </div>
+
+                <div class="form-group">
+                    <label for="phonenumber"><b>phonenumber</b></label>
+                    <input type="text" name="phonenumber" id="phonenumber">
+                </div>
+
+                <div class="form-group">
+                    <label for="Address"><b>Address</b></label>
+                    <input type="text" name="Address" id="Address">
+                </div>
+
+                <div class="form-group">
+                    <label for="sex"><b>Gender</b></label>
+                    <select name="sex" id="sex">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="description"><b> Description of Products</b></label>
+                    <textarea cols="100" rows="20"></textarea>
+                </div>
+                
+                
+                
+
+               
+                <a href="login_sucess.html" class="btn btn-dark">Submit</a>
+                <!-- <botton type="submit" class="btn" >Submit</botton> -->
+            </form>
+        </div>
+
+    </section>
+    <section id="contact-info" class="bg-dark">
+        <div class="container">
+
+            <div class="box">
+                <h3>Location</h3>
+                <address>10th floor, city campus, Yusuf Maitama Sule University Kano.</address>
+               
+            </div>
+            <div class="box">
+                <h3>Phone Number</h3>
+                <p>+234 8083937339</p>
+            
+            </div>
+            <div class="box">
+                <h3>info@mail.com</h3>
+                <p></p>
+                
+            </div>
+        </div>
+
+    </section>
+    
+   
+    
+    <footer id="main-footer">
+        <p> HomeGrown Harvest &copy; 2023.</p>
+    </footer>
+    
+</body>
+</html>
